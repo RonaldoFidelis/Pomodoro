@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <script defer type="module" src="src/main.mjs"></script>
+  <title>Pomodoro</title>
+</head>
+
+<body>
+  <div class="flex justify-center py-5 min-h-screen min-w-full bg-[#BA4949]">
+    <div class="flex justify-center items-center flex-col rounded-md bg-[#C15C5C] w-[450px] h-[300px]">
+      <div class="flex gap-4">
+        <button class="text-white p-3 text-lg">
+          Pomodoro
+        </button>
+        <button class="text-white p-3 text-lg">
+          Short Break
+        </button>
+        <button class="text-white p-3 text-lg">
+          Long Break
+        </button>
+      </div>
+      <div class="m-5">
+        <h1 class="output text-8xl text-white font-semibold">25:00</h1>
+      </div>
+      <div>
+        <button class="start bg-white p-4 rounded-md w-[90px] text-[#C15C5C] font-medium text-2xl">
+          Start
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
